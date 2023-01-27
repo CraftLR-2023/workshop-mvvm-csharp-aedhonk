@@ -11,4 +11,9 @@ public partial class HelloBeautifulUsefulButton : Window
     {
         InitializeComponent();
     }
+
+    public void ButtonOnClick(object sender, RoutedEventArgs eventData)
+    {
+        Console.Write("Honk");
+    }
 }
